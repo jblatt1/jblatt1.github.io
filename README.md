@@ -1,1 +1,0 @@
-For now, is just polymer starter kit
