@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Jared Blatt</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,700" rel="stylesheet">
 </head>
-
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+        margin: 0 0;
+    }
+    .topbar {
+        background: #252525;
+        padding: 20px;
+    }
+    .title-name {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 100;
+        display: inline-block;
+    }
+    .top-nav {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: right;
+        float: right;
+    }
+    .top-nav li {
+        float: left;
+    }
+    .top-nav li a {
+        display: inline-block;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        font-variant: small-caps;
+        text-decoration: none;
+        padding: 0 16px;
+    }
+    .shadow-card {
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    }
+</style>
 <body>
-   Hello World from Jared Blatt!
+    <div class="topbar shadow-card">
+        <span class="title-name">Jared Blatt</span>
+        <ul class=top-nav>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
 </body>
-
-
 </html>
